@@ -9,6 +9,40 @@
     <title>New Year Countdown</title>
   </head>
   <body>
-    <main></main>
+    <header>
+      <h1>New Year Countdown</h1>
+    </header>
+
+    <main>
+      <section class="countdown">
+        <!-- Days -->
+        <div class="time-segment">
+          <time id="days" class="time-value" datetime="">00</time>
+          <div class="time-label">Days</div>
+        </div>
+
+        <!-- Hours -->
+        <div class="time-segment">
+          <time id="hours" class="time-value" datetime="">00</time>
+          <div class="time-label">Hours</div>
+        </div>
+
+        <!-- Minutes -->
+        <div class="time-segment">
+          <time id="minutes" class="time-value" datetime="">00</time>
+          <div class="time-label">Minutes</div>
+        </div>
+
+        <!-- Seconds -->
+        <div class="time-segment">
+          <time id="seconds" class="time-value" datetime="">00</time>
+          <div class="time-label">Seconds</div>
+        </div>
+      </section>
+    </main>
+
+    <div id="year" class="year"></div>
+
+    <!-- <img src="images/spinner.gif" id="loading" alt="loading" class="loading" /> -->
   </body>
 </html>
